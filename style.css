@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: black;
+}
+
+body {
+    font-family: "Island Moments", sans-serif;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    border: none;
+}
+
+header {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #E6B3B3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 10px 30px rgba(83, 75, 80, 0.5);
+    z-index: 1000;
+}
+
+.aaa {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.h_link {
+    display: flex;
+    gap: 20px;
+}
+
+.h2_links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link {
+    color: white;
+    font-size: 1.3em;
+    font-family: "Jockey One", sans-serif;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.cart-btn-header {
+    background-color: #E6A7A7;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    background-image: url(foto/imagebg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    margin-top: 80px;
+}
+
+.banner_text {
+    font-size: 4em;
+    color: white;
+    font-family: "Jockey One", sans-serif;
+}
+
+.banner_hr {
+    background-color: #E6B3B3;
+    border-radius: 60px;
+    padding: 10px 30px;
+    font-size: 2em;
+    color: white;
+    font-family: "Jockey One", sans-serif;
+}
+
+.main {
+    width: 100%;
+    background-image: url(foto/bg.png);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.about {
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 2em;
+}
+
+.about p:first-child {
+    font-size: 2em;
+    font-family: "Jockey One", sans-serif;
+    margin-bottom: 20px;
+}
+
+.catalog {
+    padding: 0 7%;
+}
+
+.catalog-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Jockey One", sans-serif;
+    margin: 40px 0;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.ca {
+    width: 210px;
+    height: 350px;
+    background-color: #ECE3E3;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.ca img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ca .text {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0;
+    font-family: "Jockey One", sans-serif;
+}
+
+.ca .cost {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.ca .buy {
+    width: 70%;
+    background-color: #E6A7A7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Jockey One", sans-serif;
+}
+
+.ca .buy:hover {
+    background-color: #d99898;
+}
+
+.reviews {
+    padding: 40px 7%;
+}
+
+.reviews-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Jockey One", sans-serif;
+    margin-bottom: 30px;
+}
+
+#review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+#review-name,
+#review-text {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #E6B3B3;
+    border-radius: 10px;
+    font-family: "Island Moments", sans-serif;
+    font-size: 1em;
+}
+
+#review-text {
+    height: 100px;
+    resize: vertical;
+}
+
+#review-form button {
+    background-color: #E6A7A7;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-family: "Jockey One", sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#review-form button:hover {
+    background-color: #d99898;
+}
+
+.reviews-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review {
+    background-color: #ECE3E3;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+.review .review-name {
+    font-weight: bold;
+    font-family: "Jockey One", sans-serif;
+}
+
+.info {
+    background-color: #E6B3B3;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.info_t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.info_t img {
+    width: 150px;
+    height: auto;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    font-family: "Island Moments", sans-serif;
+}
+
+.contact-details p:first-child {
+    font-size: 1.5em;
+    font-family: "Jockey One", sans-serif;
+}

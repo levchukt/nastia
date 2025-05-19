@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Garden</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Jockey+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="aaa">
+            <img src="foto/logo 1.png" alt="Flower Garden Logo" class="logo">
+            <div class="h_link">
+                <a href="#" class="link">Home</a>
+                <a href="#about" class="link">About</a>
+                <a href="#catalog" class="link">Catalog</a>
+                <a href="#reviews" class="link">Reviews</a>
+                <a href="#contacts" class="link">Contacts</a>
+            </div>
+        </div>
+        <div class="h2_links">
+            <a href="#" class="link">Log in</a>
+            <a href="cart.html" class="cart-btn-header link">Cart (<span class="cart-counter">0</span>)</a>
+            <img src="foto/image.png" alt="User Icon" width="45" height="50">
+        </div>
+    </header>
+
+    <section class="banner">
+        <p class="banner_text">Flower Garden</p>
+        <a class="banner_hr" href="#">Sign up</a>
+    </section>
+
+    <div class="main">
+        <section id="about" class="about">
+            <p>About Us</p>
+            <p>We give people emotions that remind them of the brightest events of life.</p>
+        </section>
+
+        <section id="catalog" class="catalog">
+            <p class="catalog-title">Our Catalog</p>
+            <div class="items"></div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <p class="reviews-title">Customer Reviews</p>
+            <form id="review-form">
+                <input type="text" id="review-name" placeholder="Your Name" required>
+                <textarea id="review-text" placeholder="Your Review" required></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+            <div class="reviews-list"></div>
+        </section>
+    </div>
+
+    <hr>
+
+    <footer id="contacts" class="info">
+        <div class="info_t">
+            <img src="foto/logo 1.png" alt="Flower Garden Logo">
+            <div class="contact-details">
+                <p>Contact Us</p>
+                <p>Email: flowergarden@example.com</p>
+                <p>Phone: +380 123 456 789</p>
+                <p>Address: 123 Floral Street, Kyiv, Ukraine</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
