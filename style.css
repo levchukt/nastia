@@ -90,12 +90,14 @@ header {
     font-size: 4em;
     color: white;
     font-family: "Jockey One", sans-serif;
+    padding: 4% 0;
 }
 
 .banner_hr {
+    width: 15%;
     background-color: #E6B3B3;
     border-radius: 60px;
-    padding: 10px 30px;
+    padding: 10px 4.3%;
     font-size: 2em;
     color: white;
     font-family: "Jockey One", sans-serif;
@@ -287,4 +289,178 @@ header {
 .contact-details p:first-child {
     font-size: 1.5em;
     font-family: "Jockey One", sans-serif;
+}
+
+
+/* Cart Page Styles */
+.itemscard {
+    max-width: 1200px;
+    margin: 100px auto 50px;
+    padding: 20px;
+    background-color: #f9f3f3;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items-container {
+    margin: 30px 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.cart-item:hover {
+    transform: translateY(-3px);
+}
+
+.cart-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #e6b3b3;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-item-details h3 {
+    font-family: "Jockey One", sans-serif;
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.cart-item-details p {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #555;
+}
+
+.cart-item-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+
+.quantity-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #e6a7a7;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Jockey One", sans-serif;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.quantity-btn:hover {
+    background-color: #d99898;
+}
+
+.quantity-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.cart-item-controls span {
+    min-width: 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.remove-btn {
+    padding: 6px 12px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Jockey One", sans-serif;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #ff5252;
+}
+
+.cart-total {
+    text-align: right;
+    font-size: 1.8em;
+    font-family: "Jockey One", sans-serif;
+    margin: 30px 0;
+    color: #333;
+}
+
+.cart-total span {
+    color: #e6a7a7;
+    font-weight: bold;
+}
+
+.order-btn {
+    display: block;
+    width: 250px;
+    margin: 30px auto 0;
+    padding: 12px;
+    background-color: #e6a7a7;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: "Jockey One", sans-serif;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.order-btn:hover {
+    background-color: #d99898;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(230, 167, 167, 0.4);
+}
+
+.empty-cart-message {
+    text-align: center;
+    font-size: 1.5em;
+    color: #777;
+    padding: 50px 0;
+    font-family: "Island Moments", sans-serif;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .cart-item {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .cart-item-controls {
+        justify-content: center;
+    }
+    
+    .cart-total {
+        text-align: center;
+    }
+    
+    .order-btn {
+        width: 100%;
+    }
 }

@@ -1,11 +1,11 @@
 [
-    {"title": "Rose Bouquet", "description": "Elegant red roses", "price": 500, "image": "flower1.png"},
-    {"title": "Tulip Arrangement", "description": "Vibrant mixed tulips", "price": 400, "image": "flower2.png"},
-    {"title": "Lily Basket", "description": "Pure white lilies", "price": 600, "image": "flower3.png"},
-    {"title": "Sunflower Bunch", "description": "Bright sunflowers", "price": 350, "image": "flower4.png"},
-    {"title": "Orchid Pot", "description": "Exotic purple orchids", "price": 700, "image": "flower5.png"},
-    {"title": "Daisy Mix", "description": "Cheerful daisies", "price": 300, "image": "flower6.png"},
-    {"title": "Carnation Bouquet", "description": "Soft pink carnations", "price": 450, "image": "flower7.png"},
-    {"title": "Peony Arrangement", "description": "Lush peonies", "price": 800, "image": "flower8.png"},
-    {"title": "Mixed Floral Box", "description": "Assorted flowers", "price": 550, "image": "flower9.png"}
+    {"title": "Rose Bouquet", "description": "Elegant red roses", "price": 500, "image": "image (2).png"},
+    {"title": "Tulip Arrangement", "description": "Vibrant mixed tulips", "price": 400, "image": "image (3).png"},
+    {"title": "Lily Basket", "description": "Pure white lilies", "price": 600, "image": "image (4).png"},
+    {"title": "Sunflower Bunch", "description": "Bright sunflowers", "price": 350, "image": "image (5).png"},
+    {"title": "Orchid Pot", "description": "Exotic purple orchids", "price": 700, "image": "image (6).png"},
+    {"title": "Daisy Mix", "description": "Cheerful daisies", "price": 300, "image": "image (7).png"},
+    {"title": "Carnation Bouquet", "description": "Soft pink carnations", "price": 450, "image": "image (8).png"},
+    {"title": "Peony Arrangement", "description": "Lush peonies", "price": 800, "image": "image (9).png"},
+    {"title": "Mixed Floral Box", "description": "Assorted flowers", "price": 550, "image": "image (10).png"}
 ]
